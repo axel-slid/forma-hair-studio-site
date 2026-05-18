@@ -1,6 +1,6 @@
-# YahirBlxnds Website
+# Forma Hair Studio Website
 
-Static barber service landing page for YahirBlxnds at 1199 Laurel St, San Carlos, CA 94070.
+Static barber service landing page for Forma Hair Studio at 1199 Laurel St, San Carlos, CA 94070.
 
 Open `index.html` directly or serve this folder locally:
 
