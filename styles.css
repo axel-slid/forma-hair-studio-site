@@ -151,6 +151,13 @@ strong {
   color: var(--muted);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
 .button {
   display: inline-flex;
   min-width: 214px;
@@ -170,6 +177,12 @@ strong {
 .button.dark {
   margin-top: 0;
   background: var(--ink);
+  color: #fff;
+}
+
+.button.ghost {
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  background: transparent;
   color: #fff;
 }
 
@@ -273,12 +286,18 @@ strong {
 }
 
 .service-price {
-  display: grid;
+  display: flex;
+  align-items: center;
   min-width: 132px;
-  justify-items: end;
-  gap: 8px;
+  justify-content: end;
+  gap: 20px;
   color: var(--brown);
   text-align: right;
+}
+
+.service-price div {
+  display: grid;
+  gap: 8px;
 }
 
 .service-price .price {
@@ -292,6 +311,20 @@ strong {
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.service-price a {
+  display: inline-flex;
+  min-width: 70px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #438bad;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .featured-service {
