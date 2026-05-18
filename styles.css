@@ -41,9 +41,9 @@ strong {
   min-height: 100svh;
   overflow: hidden;
   background:
-    linear-gradient(rgba(18, 13, 10, 0.66), rgba(18, 13, 10, 0.7)),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.38)),
-    url("https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1800&q=85") center / cover no-repeat;
+    linear-gradient(rgba(18, 13, 10, 0.48), rgba(18, 13, 10, 0.56)),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.34)),
+    url("assets/hero-barber.png") center / cover no-repeat;
 }
 
 .hero::before {
@@ -79,27 +79,13 @@ strong {
   text-transform: uppercase;
 }
 
-.brand svg {
-  width: 44px;
-  height: 44px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 4;
-}
-
-.brand span {
-  font-size: 22px;
-}
-
-.brand small {
+.brand img {
   display: block;
-  margin-bottom: 3px;
-  color: var(--gold);
-  font-size: 9px;
-  font-weight: 400;
-  letter-spacing: 0.12em;
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+  background: #fff;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -403,13 +389,9 @@ strong {
 }
 
 @media (max-width: 520px) {
-  .brand svg {
-    width: 38px;
-    height: 38px;
-  }
-
-  .brand span {
-    font-size: 18px;
+  .brand img {
+    width: 72px;
+    height: 72px;
   }
 
   .eyebrow,
