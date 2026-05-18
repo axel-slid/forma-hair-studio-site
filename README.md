@@ -1,19 +1,16 @@
-# Forma Hair Studio Starter Website
+# YahirBlxnds Website
 
-Open `index.html` in a browser to view the site.
+Static barber service landing page for YahirBlxnds at 1199 Laurel St, San Carlos, CA 94070.
 
-This draft uses only the facts provided:
+Open `index.html` directly or serve this folder locally:
 
-- Forma Hair Studio
-- 1199 Laurel St, San Carlos, CA 94070
-- 5.0 rating from 1 review
-- Booksy listing requires logging in or creating an account to contact the business
+```sh
+python3 -m http.server 4173 --bind 127.0.0.1
+```
 
-Items still needed from the owner:
+Included services:
 
-- Real salon photo
-- Phone number
-- Booking URL
-- Hours
-- Confirmed services and pricing
-- Logo, brand colors, and approved copy
+- Kids Haircut, ages 4-12: $30.00, 1h
+- Haircut: $40.00, 1h
+- Haircut + Beard: $50.00, 1h
+- The VIP Experience: $100.00, 1h 30min

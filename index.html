@@ -1,182 +1,144 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Forma Hair Studio | Hair Studio in San Carlos, CA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YahirBlxnds | Barber Services in San Carlos, CA</title>
     <meta
       name="description"
-      content="Forma Hair Studio is a hair studio located at 1199 Laurel St, San Carlos, CA 94070. Contact the business through Booksy or update this page with owner-approved booking details."
-    />
-    <meta property="og:title" content="Forma Hair Studio | San Carlos, CA" />
+      content="YahirBlxnds provides precision haircuts, beard work, kids haircuts, and VIP grooming at 1199 Laurel St, San Carlos, CA 94070."
+    >
+    <meta property="og:title" content="YahirBlxnds | San Carlos Barber Services">
     <meta
       property="og:description"
-      content="A clean starter website for Forma Hair Studio at 1199 Laurel St, San Carlos, CA 94070."
-    />
-    <meta property="og:type" content="website" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-
-      .salon-image {
-        background-image:
-          linear-gradient(rgba(24, 24, 27, 0.08), rgba(24, 24, 27, 0.08)),
-          url("https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1400&q=85");
-      }
-    </style>
+      content="Book haircut, beard, kids haircut, and VIP grooming services at 1199 Laurel St, San Carlos, CA 94070."
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body class="bg-[#faf8f5] text-zinc-950 antialiased">
-    <header class="sticky top-0 z-50 border-b border-zinc-200 bg-[#faf8f5]/95 backdrop-blur">
-      <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-6 lg:px-8">
-        <a href="#" class="text-base font-semibold tracking-normal">Forma Hair Studio</a>
-        <div class="hidden items-center gap-7 text-sm font-medium text-zinc-700 sm:flex">
-          <a href="#about" class="hover:text-zinc-950">About</a>
-          <a href="#services" class="hover:text-zinc-950">Services</a>
-          <a href="#visit" class="hover:text-zinc-950">Visit</a>
-        </div>
-        <a
-          href="#visit"
-          class="inline-flex h-10 items-center justify-center rounded-lg bg-zinc-950 px-4 text-sm font-semibold text-white hover:bg-zinc-800"
-        >
-          Contact
+  <body>
+    <section class="hero" id="home">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="YahirBlxnds home">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M47.5 8.5 8.5 47.5"></path>
+            <path d="m31 25 24 24"></path>
+            <circle cx="14" cy="50" r="6"></circle>
+            <circle cx="50" cy="50" r="6"></circle>
+            <path d="M36 20h17"></path>
+          </svg>
+          <span>
+            <small>San Carlos</small>
+            Yahir<br>Blxnds
+          </span>
         </a>
-      </nav>
-    </header>
+
+        <nav class="nav-links" aria-label="Main menu">
+          <a class="active" href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#visit">Visit</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <div class="hero-content">
+        <p class="eyebrow">Precision Cuts, Beard Work, VIP Grooming</p>
+        <h1>Yahir<br>Blxnds</h1>
+        <p class="details">
+          <span>1199 Laurel St, San Carlos, CA 94070</span>
+          <span>Rated 5.0/5</span>
+        </p>
+        <a class="button" href="#services">Search Services</a>
+      </div>
+
+      <a class="scroll-cue" href="#services" aria-label="Scroll to services">
+        <span></span>
+      </a>
+    </section>
 
     <main>
-      <section class="border-b border-zinc-200">
-        <div class="mx-auto grid max-w-6xl gap-8 px-5 py-8 sm:px-6 lg:grid-cols-[1fr_0.9fr] lg:px-8 lg:py-12">
-          <div class="flex flex-col justify-center py-6">
-            <p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Hair Studio in San Carlos</p>
-            <h1 class="mt-4 max-w-3xl text-5xl font-semibold tracking-normal text-zinc-950 sm:text-6xl lg:text-7xl">
-              Forma Hair Studio
-            </h1>
-            <p class="mt-6 max-w-2xl text-lg leading-8 text-zinc-700">
-              Forma Hair Studio is located at 1199 Laurel St in San Carlos, California. This page is ready for owner-approved service details,
-              booking information, photos, and hours.
-            </p>
-            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=1199%20Laurel%20St%2C%20San%20Carlos%2C%20CA%2094070"
-                target="_blank"
-                rel="noreferrer"
-                class="inline-flex h-12 items-center justify-center rounded-lg bg-zinc-950 px-5 text-sm font-semibold text-white hover:bg-zinc-800"
-              >
-                Get Directions
-              </a>
-              <a
-                href="#visit"
-                class="inline-flex h-12 items-center justify-center rounded-lg border border-zinc-300 px-5 text-sm font-semibold text-zinc-900 hover:bg-white"
-              >
-                Contact Details
-              </a>
-            </div>
-          </div>
-          <div class="min-h-[420px] overflow-hidden rounded-lg border border-zinc-200 bg-white shadow-sm">
-            <div class="salon-image h-full min-h-[420px] bg-cover bg-center"></div>
-          </div>
-        </div>
+      <section class="intro" id="services">
+        <p class="section-kicker">Other Services</p>
+        <h2>4 Services</h2>
+        <p>
+          Choose from kids haircuts, precision haircuts, beard grooming, and the full VIP grooming experience.
+        </p>
       </section>
 
-      <section id="about" class="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-        <div>
-          <p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">About</p>
-          <h2 class="mt-3 text-3xl font-semibold tracking-normal">A San Carlos hair studio on Laurel Street.</h2>
-        </div>
-        <div class="space-y-5 text-base leading-8 text-zinc-700">
-          <p>
-            Forma Hair Studio is listed at 1199 Laurel St, San Carlos, CA 94070. Add owner-approved copy here about the studio,
-            stylist specialties, appointment experience, and what new clients should know before booking.
-          </p>
-          <p>
-            Public listing detail provided: 5.0 rating from 1 review. This page does not include fabricated testimonials,
-            awards, service claims, or staff details.
-          </p>
-        </div>
-      </section>
-
-      <section id="services" class="border-y border-zinc-200 bg-white">
-        <div class="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
-          <div class="max-w-2xl">
-            <p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Services</p>
-            <h2 class="mt-3 text-3xl font-semibold tracking-normal">Add confirmed service details.</h2>
-            <p class="mt-4 leading-7 text-zinc-700">
-              Replace the placeholders below with the studio's actual services, pricing notes, and booking requirements.
-            </p>
-          </div>
-
-          <div class="mt-8 grid gap-4 md:grid-cols-3">
-            <article class="rounded-lg border border-zinc-200 p-5">
-              <h3 class="text-lg font-semibold">[Haircuts]</h3>
-              <p class="mt-3 text-sm leading-6 text-zinc-600">Add confirmed haircut service details and appointment notes.</p>
-            </article>
-            <article class="rounded-lg border border-zinc-200 p-5">
-              <h3 class="text-lg font-semibold">[Color Services]</h3>
-              <p class="mt-3 text-sm leading-6 text-zinc-600">Add confirmed color, consultation, and maintenance information.</p>
-            </article>
-            <article class="rounded-lg border border-zinc-200 p-5">
-              <h3 class="text-lg font-semibold">[Styling]</h3>
-              <p class="mt-3 text-sm leading-6 text-zinc-600">Add confirmed blowout, event styling, or finishing service details.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="visit" class="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8">
-        <div class="grid gap-8 lg:grid-cols-[1fr_360px]">
+      <section class="services" aria-label="Service menu">
+        <article class="service-card">
           <div>
-            <p class="text-sm font-semibold uppercase tracking-wide text-zinc-500">Visit</p>
-            <h2 class="mt-3 text-3xl font-semibold tracking-normal">Forma Hair Studio</h2>
-            <dl class="mt-6 grid gap-4 text-sm sm:grid-cols-2">
-              <div class="rounded-lg border border-zinc-200 bg-white p-5">
-                <dt class="font-semibold text-zinc-950">Address</dt>
-                <dd class="mt-2 leading-6 text-zinc-700">1199 Laurel St<br />San Carlos, CA 94070</dd>
-              </div>
-              <div class="rounded-lg border border-zinc-200 bg-white p-5">
-                <dt class="font-semibold text-zinc-950">Contact</dt>
-                <dd class="mt-2 leading-6 text-zinc-700">Booksy listing says to log in or create an account to contact this business.</dd>
-              </div>
-              <div class="rounded-lg border border-zinc-200 bg-white p-5">
-                <dt class="font-semibold text-zinc-950">Rating</dt>
-                <dd class="mt-2 leading-6 text-zinc-700">5.0 from 1 review</dd>
-              </div>
-              <div class="rounded-lg border border-zinc-200 bg-white p-5">
-                <dt class="font-semibold text-zinc-950">Hours</dt>
-                <dd class="mt-2 leading-6 text-zinc-700">[Add confirmed hours]</dd>
-              </div>
-            </dl>
-            <div class="mt-6">
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=1199%20Laurel%20St%2C%20San%20Carlos%2C%20CA%2094070"
-                target="_blank"
-                rel="noreferrer"
-                class="inline-flex h-11 items-center justify-center rounded-lg bg-zinc-950 px-5 text-sm font-semibold text-white hover:bg-zinc-800"
-              >
-                Open Map
-              </a>
-            </div>
+            <p class="service-meta">Ages 4-12</p>
+            <h3>Kids Haircut</h3>
+            <p>This service includes a clean, age-appropriate cut with a detailed finish.</p>
           </div>
+          <div class="service-price">
+            <strong>$30.00</strong>
+            <span>1h</span>
+          </div>
+        </article>
 
-          <aside class="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm">
-            <h3 class="text-lg font-semibold">Owner updates needed</h3>
-            <ul class="mt-4 space-y-3 text-sm leading-6 text-zinc-700">
-              <li>Replace the stock salon image with the real Forma Hair Studio photo.</li>
-              <li>Add confirmed phone number, booking URL, and hours.</li>
-              <li>Add actual services and pricing details.</li>
-              <li>Add approved brand colors, logo, and staff information if available.</li>
-            </ul>
-          </aside>
+        <article class="service-card">
+          <div>
+            <p class="service-meta">Precision Cut</p>
+            <h3>Haircut</h3>
+            <p>
+              A professional, precision-focused cut tailored to your head shape and hair type. Includes a detailed finish and styling.
+            </p>
+          </div>
+          <div class="service-price">
+            <strong>$40.00</strong>
+            <span>1h</span>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div>
+            <p class="service-meta">Cut + Grooming</p>
+            <h3>Haircut + Beard</h3>
+            <p>
+              The complete grooming experience. A precision haircut combined with expert beard shaping, lining, and maintenance.
+            </p>
+          </div>
+          <div class="service-price">
+            <strong>$50.00</strong>
+            <span>1h</span>
+          </div>
+        </article>
+
+        <article class="service-card featured-service">
+          <div>
+            <p class="service-meta">Signature Service</p>
+            <h3>The VIP Experience</h3>
+            <p>
+              The ultimate grooming session featuring a precision haircut, beard sculpting, a therapeutic hot towel treatment, and a refreshing facial steam.
+            </p>
+          </div>
+          <div class="service-price">
+            <strong>$100.00</strong>
+            <span>1h 30min</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="visit" id="visit">
+        <div>
+          <p class="section-kicker">Visit</p>
+          <h2>1199 Laurel St</h2>
+          <p>San Carlos, CA 94070</p>
+        </div>
+        <div class="visit-actions" id="contact">
+          <a
+            class="button dark"
+            href="https://www.google.com/maps/search/?api=1&query=1199%20Laurel%20St%2C%20San%20Carlos%2C%20CA%2094070"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Get Directions
+          </a>
+          <p class="rating">5.0/5 rating</p>
         </div>
       </section>
     </main>
-
-    <footer class="border-t border-zinc-200">
-      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-        <p>© 2026 Forma Hair Studio. Starter website draft.</p>
-        <p>1199 Laurel St, San Carlos, CA 94070</p>
-      </div>
-    </footer>
   </body>
 </html>
